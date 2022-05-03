@@ -1,0 +1,31 @@
+@use "../../assets/sass/_variables.scss"as *;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  background: linear-gradient(90deg, rgb(228, 133, 117) 0%, rgba(230, 148, 142, 0.986) 24%, rgb(230, 193, 171) 100%);
+  height: 90px;
+  display: flex;
+ gap: 20px;
+  
+
+  .my-name {
+    margin: auto;
+  }
+
+  .sections-list {
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    
+
+    li {
+    
+      font-family: 'Bebas Neue'
+    }
+  }
+}
