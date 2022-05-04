@@ -1,0 +1,19 @@
+@use "../../assets/sass/variables" as *;
+
+.AboutMe-header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: $color-primary;
+  font-family: $font-secondary;
+}
+
+.paragraph {
+  background: linear-gradient(90deg, rgb(81, 106, 129) 0%, rgb(134, 140, 151) 24%, rgb(137, 139, 163) 100%);
+    width: 80%;
+    margin: 20px auto;
+
+    text-align: center;
+    font-family: $font-primary;
+    padding: 20px;
+    border-radius: 50px;
+}

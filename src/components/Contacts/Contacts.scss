@@ -1,0 +1,41 @@
+@use "../../assets/sass/variables.scss" as *;
+
+.Contacts-header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: $color-primary;
+  font-family: $font-secondary;
+}
+
+.Contacts-images_list {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+
+  li {
+    list-style-type: none;
+  }
+
+  .email-image {
+    height: 45px;
+    margin-top: 6px;
+    
+  }
+  .github-image{
+    height:53px;
+    
+  }
+  .linkedin-image {
+    height:50px;
+    margin-top: auto;
+  }
+
+  .link-title {
+    font-family: $font-primary;
+    color: $color-primary;
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+
+  }
+}

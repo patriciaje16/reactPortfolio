@@ -1,8 +1,20 @@
-
+@use "../../assets/sass/variables" as *;
 
 .heading-container{
   display: flex;
   justify-content: center;
+.welcome-heading {
+  font-family: $font-primary;
+}
+
+.header-description {
+  font-family: $font-primary;
+  font-weight: 100;
+}
+.heading-last {
+  font-family: $font-secondary;
+}
+
 .picOfMe {
   height: 400px;
   margin-right: auto;

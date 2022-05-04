@@ -7,7 +7,7 @@ const Nav = () => {
       <h3 className="my-name">Patricia Edwards</h3>
       
         <ul className="sections-list">
-      <li className="aboutMe">About Me</li>
+     <a href="AboutMe-header"><li  className="aboutMe">About Me</li></a> 
       <li className="projects">Projects</li>
       <li className="resume">Resume</li>
       <li className="contact">Contact</li>
