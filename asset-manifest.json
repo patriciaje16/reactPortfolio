@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.91d79f8b.css",
-    "main.js": "/static/js/main.109bcf07.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/beerProject.png": "/static/media/beerProject.a0d8e495d68326923006.png",
-    "static/media/me.png": "/static/media/me.30d8706422d4d8385a80.png",
-    "static/media/Tictactoe.png": "/static/media/Tictactoe.cfeb33465dea3e294743.png",
-    "static/media/calculator.png": "/static/media/calculator.e135d3dc62f45a8f0644.png",
-    "index.html": "/index.html",
-    "main.91d79f8b.css.map": "/static/css/main.91d79f8b.css.map",
-    "main.109bcf07.js.map": "/static/js/main.109bcf07.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/reactPortfolio/static/css/main.91d79f8b.css",
+    "main.js": "/reactPortfolio/static/js/main.36137315.js",
+    "static/js/787.1ed0c42c.chunk.js": "/reactPortfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/beerProject.png": "/reactPortfolio/static/media/beerProject.a0d8e495d68326923006.png",
+    "static/media/me.png": "/reactPortfolio/static/media/me.30d8706422d4d8385a80.png",
+    "static/media/Tictactoe.png": "/reactPortfolio/static/media/Tictactoe.cfeb33465dea3e294743.png",
+    "static/media/calculator.png": "/reactPortfolio/static/media/calculator.e135d3dc62f45a8f0644.png",
+    "index.html": "/reactPortfolio/index.html",
+    "main.91d79f8b.css.map": "/reactPortfolio/static/css/main.91d79f8b.css.map",
+    "main.36137315.js.map": "/reactPortfolio/static/js/main.36137315.js.map",
+    "787.1ed0c42c.chunk.js.map": "/reactPortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91d79f8b.css",
-    "static/js/main.109bcf07.js"
+    "static/js/main.36137315.js"
   ]
 }
