@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.91d79f8b.css",
-    "main.js": "/reactPortfolio/static/js/main.36137315.js",
+    "main.css": "/reactPortfolio/static/css/main.d7001a5c.css",
+    "main.js": "/reactPortfolio/static/js/main.0972044f.js",
     "static/js/787.1ed0c42c.chunk.js": "/reactPortfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/beerProject.png": "/reactPortfolio/static/media/beerProject.a0d8e495d68326923006.png",
-    "static/media/me.png": "/reactPortfolio/static/media/me.30d8706422d4d8385a80.png",
+    "static/media/me2.png": "/reactPortfolio/static/media/me2.d1a2986b6d98d38f8ee5.png",
     "static/media/Tictactoe.png": "/reactPortfolio/static/media/Tictactoe.cfeb33465dea3e294743.png",
-    "static/media/calculator.png": "/reactPortfolio/static/media/calculator.e135d3dc62f45a8f0644.png",
+    "static/media/calculator.png": "/reactPortfolio/static/media/calculator.cc3cba510ca88cc8be7d.png",
     "index.html": "/reactPortfolio/index.html",
-    "main.91d79f8b.css.map": "/reactPortfolio/static/css/main.91d79f8b.css.map",
-    "main.36137315.js.map": "/reactPortfolio/static/js/main.36137315.js.map",
+    "main.d7001a5c.css.map": "/reactPortfolio/static/css/main.d7001a5c.css.map",
+    "main.0972044f.js.map": "/reactPortfolio/static/js/main.0972044f.js.map",
     "787.1ed0c42c.chunk.js.map": "/reactPortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91d79f8b.css",
-    "static/js/main.36137315.js"
+    "static/css/main.d7001a5c.css",
+    "static/js/main.0972044f.js"
   ]
 }
