@@ -17,4 +17,7 @@
     color: $color-white;
     font-family: $font-primary;
     font-style: oblique;
+    li {
+      list-style: none;
+    }
   }
