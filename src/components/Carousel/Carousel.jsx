@@ -18,16 +18,21 @@ const Carousel = ({ portfolioData, projects }) => {
 
 
   return (
-    <div className='carousel'>
+    <>
+    <h1 className='carouselHeading'>Projects</h1>
+    <div id="projects"className='carousel'>
+      
       <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
       <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
       {portfolioData.map((project, index) => {
         return (
-          <div className={index === currentImage ? 'slide active' : 'slide'} key={index}>
+          <div  className={index === currentImage ? 'slide active' : 'slide'} key={index} >{index === currentImage && <h1 className='projectTitle'>{project.name}</h1>}
             {index === currentImage && 
-              <img src={project.image} alt='project' className='project-images' /> 
-            } {index === currentImage && <h1>{project.name}</h1>}
+             <img src={project.image} alt='project' className='project-images' /> 
+            } {index === currentImage && <p className="description">
+            {project.description}</p> } 
           </div>
+          
         )
         
       })}
@@ -37,6 +42,7 @@ const Carousel = ({ portfolioData, projects }) => {
       
       
     </div>
+    </>
   )
 }
 

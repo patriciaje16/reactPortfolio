@@ -7,7 +7,7 @@ import LinkedinImage from "../../assets/images/linkedin.png"
 const Contacts = () => {
   return (
     <div className='container'>
-      <h1 className="Contacts-header">Contacts</h1>
+      <h1 id="contact"className="Contacts-header">Contacts</h1>
       <ul className='Contacts-images_list'>
         <div>
           <li ><img className = "email-image"src={EmailImage} alt="Email"/></li>

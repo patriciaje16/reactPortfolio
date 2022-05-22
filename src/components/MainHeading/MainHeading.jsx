@@ -1,5 +1,5 @@
 
-import picOfMe from "../../assets/images/me.png"
+import picOfMe from "../../assets/images/me2.png"
 
 import React from 'react'
 import "./Mainheading.scss"

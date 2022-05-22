@@ -5,20 +5,26 @@
   justify-content: center;
 .welcome-heading {
   font-family: $font-primary;
+  color: $color-primary;
+  text-decoration:solid;
 }
 
 .header-description {
   font-family: $font-primary;
   font-weight: 100;
+  color: $color-primary;
+  text-decoration: underline;
 }
 .heading-last {
   font-family: $font-secondary;
+  color: $color-primary;
 }
 
 .picOfMe {
   height: 400px;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 50px;
+  border: solid 3px $color-primary;
   
 }
 

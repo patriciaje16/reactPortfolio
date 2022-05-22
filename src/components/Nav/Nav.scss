@@ -3,10 +3,11 @@
 * {
   padding: 0;
   margin: 0;
+  font-size: 30px;
 }
 
 .nav {
-  background: linear-gradient(90deg, rgb(228, 133, 117) 0%, rgba(230, 148, 142, 0.986) 24%, rgb(230, 193, 171) 100%);
+  background: linear-gradient(90deg, rgb(243, 169, 126) 0%, rgb(235, 184, 126) 24%, rgb(243, 140, 93) 100%);
   height: 90px;
   display: flex;
  gap: 20px;
@@ -16,6 +17,7 @@
     margin: auto;
     font-family: $font-secondary;
     font-weight: 100;
+    color:$color-primary;
     
   }
 
@@ -24,10 +26,13 @@
     list-style-type: none;
     display: flex;
     gap: 20px;
+    color: $color-primary;
+
+    
     
 
     li {
-    
+      cursor: pointer;
       font-family: $font-secondary;
     }
   }

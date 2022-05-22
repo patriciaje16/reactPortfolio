@@ -1,15 +1,67 @@
+@use "../../assets/sass/_variables.scss"as *;
+
+*  {
+  padding: 0;
+  margin: 0;
+}
+.carouselHeading {
+  text-align: center;
+  margin: 3rem;
+  margin-top: 6rem;
+  font-family: $font-secondary;
+  color: $color-primary;
+  font-size: 50px;
+}
+
 
 .carousel {
   position: relative;
-  height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  margin: auto;
+ 
+  
+div {
+  background: linear-gradient(90deg, rgb(243, 169, 126) 0%, rgb(235, 184, 126) 24%, rgb(243, 140, 93) 100%);
+ 
+}
+
+  .description {
+    width: 50%;
+    font-family: $font-primary;
+    text-align: center;
+    font-size: large;
+    display: flex;
+    margin: auto;
+    color: $color-primary;
+    margin-top: 2rem;
+    font-style: oblique;
+    margin-bottom: 1rem;
+   
+    
+
+  }
 
   .project-images {
     height: 300px;
-    border-radius: 10px;
+    border-radius: 20px;
+    margin: auto;
+   margin-top: 1rem;
+    display: flex;
+    
 
+  }
+
+  .projectTitle {
+    text-align: center;
+    font-family: $font-primary;
+    color: $color-primary;
+    border-radius: 20%;
+    margin: auto;
+    width: 50%;
+    margin-top: 1rem;
+
+    
   }
 
   .right-arrow {
@@ -18,19 +70,18 @@
     right: 32px;
     font-size: 3rem;
     color: black;
-    z-index: 10;
     cursor: pointer;
-    user-select: none;
+
   }
+
   .left-arrow {
     position: absolute;
     top: 80%;
     left: 32px;
     font-size: 3rem;
     color: black;
-    z-index: 10;
     cursor: pointer;
-    user-select: none;
+
   }
 
 }
