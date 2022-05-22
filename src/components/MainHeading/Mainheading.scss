@@ -37,3 +37,15 @@
   gap: 50px;
 }
 }
+
+@media only screen and (max-width: 550px) {
+  .heading-container{
+    display: flex;
+    flex-direction: column-reverse;
+    
+    .picOfMe {
+      margin-left: auto;
+      
+    }
+  }
+}

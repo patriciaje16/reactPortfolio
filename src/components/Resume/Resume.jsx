@@ -5,11 +5,11 @@ const Resume = () => {
   return (
     <div className='Resume-container'>
       <h1 id="resume" className="Resume-header">Resume</h1>
-      <p className='paragraph2'> <ul>
-        <li>International School of Tanganyika: IB diploma</li>
-        <li>University of Nottingham: Occupational Psychology</li>
-        <li>British Airways Executive Club: Customer Advisor</li>
-      </ul></p>
+      <div className='paragraph2'> <ul>
+        <li><span>International School of Tanganyika:</span> IB diploma</li>
+        <li><span>University of Nottingham:</span> Occupational Psychology</li>
+        <li><span>British Airways Executive Club:</span> Customer Advisor</li>
+      </ul></div>
     </div>
   )
 }
