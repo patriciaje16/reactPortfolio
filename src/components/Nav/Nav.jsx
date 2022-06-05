@@ -8,10 +8,10 @@ const Nav = () => {
       <h3 className="my-name">Patricia Edwards</h3>
       
         <ul className="sections-list">
-     <li onClick={() => window.location.replace("/#about")} className="aboutMe">About Me</li> 
-      <li onClick={() => window.location.replace("/#projects")} className="projects">Projects</li>
-      <li onClick={() => window.location.replace("/#resume")} className="resume">Resume</li>
-      <li onClick={() => window.location.replace("/#contact")} className="contact">Contact</li>
+     <li className="aboutMe" ><a href="#about">About Me</a></li> 
+     <li className="projects" ><a href="#projects">Projects</a></li>
+     <li className="resume" ><a href="#resume">Resume</a></li>
+     <li className="contact" ><a href="#contact">About Me</a></li>   
       </ul>
 
     </div>

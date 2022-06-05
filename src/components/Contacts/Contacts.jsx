@@ -14,11 +14,11 @@ const Contacts = () => {
           <p className='link-title'>Email</p>
         </div>
         <div>
-          <li ><img className="linkedin-image"src={LinkedinImage} alt="LinkedIn"/></li>
+          <li > <a href="https://www.linkedin.com/in/patricia-edwards-706773161/" target="_blank" rel="noreferrer"> <img className="linkedin-image"src={LinkedinImage} alt="LinkedIn"/></a></li>
           <p className='link-title'>LinkedIn</p>
         </div>
         <div>
-          <li ><img className="github-image" src={GithubImage} alt="Github"/></li>
+          <li ><a href="https://github.com/patriciaje16" target="_blank" rel="noreferrer"><img className="github-image" src={GithubImage} alt="Github"/></a></li>
           <p className='link-title'>GitHub</p>
         </div>
         </ul>

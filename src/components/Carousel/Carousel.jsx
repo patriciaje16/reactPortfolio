@@ -3,6 +3,7 @@ import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
 import "./Carousel.scss"
 
 
+
 const Carousel = ({ portfolioData, projects }) => {
 
   const [currentImage, setCurrentImage] = useState(0)
@@ -26,14 +27,16 @@ const Carousel = ({ portfolioData, projects }) => {
       <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
       {portfolioData.map((project, index) => {
         return (
-          <div  className={index === currentImage ? 'slide active' : 'slide'} key={index} >{index === currentImage && <h1 className='projectTitle'>{project.name}</h1>}
+          <div  className={index === currentImage ? 'slide active' : 'slide'} key={index} >{index === currentImage && <h1 className='projectTitle'>
+          {project.name}</h1>}
             {index === currentImage && 
-             <img src={project.image} alt='project' className='project-images' /> 
+           <a href={project.link} target="_blank" rel="noreferrer"> <img src={project.image} alt='project' className='project-images'/> </a>
             } {index === currentImage && <p className="description">
             {project.description}</p> } 
           </div>
           
         )
+        
         
       })}
       

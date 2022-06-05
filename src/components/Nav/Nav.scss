@@ -34,6 +34,17 @@
     li {
       cursor: pointer;
       font-family: $font-secondary;
+      font-style: none;
+     a {
+       color: inherit;
+     }
+      a:link {
+        text-decoration: none; 
+        
+
+      }
+
+      
     }
   }
 }
