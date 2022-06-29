@@ -11,7 +11,7 @@ const Contacts = () => {
       <ul className='Contacts-images_list'>
         <div>
           <li ><img className = "email-image"src={EmailImage} alt="Email"/></li>
-          <p className='link-title'>Email</p>
+          <p className='link-title' id="email-text">patriciaje16@gmail.com</p>
         </div>
         <div>
           <li > <a href="https://www.linkedin.com/in/patricia-edwards-706773161/" target="_blank" rel="noreferrer"> <img className="linkedin-image"src={LinkedinImage} alt="LinkedIn"/></a></li>

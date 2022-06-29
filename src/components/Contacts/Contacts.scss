@@ -11,7 +11,7 @@
 .Contacts-images_list {
   display: flex;
   justify-content: center;
-  gap: 100px;
+ 
 
   li {
     list-style-type: none;
@@ -20,6 +20,8 @@
   .email-image {
     height: 45px;
     margin-top: 6px;
+    padding-left: 1.5rem;
+    
     
   }
   .github-image{
@@ -37,6 +39,13 @@
     font-size: medium;
     font-weight: bolder;
     text-align: center;
+    padding-right: 1rem;
 
+  }
+  #email-text {
+    text-align: center;
+    
+    
+    
   }
 }
